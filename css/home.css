@@ -10,7 +10,6 @@ body {
     color: white;
     background-color: black;
     display: flex;
-    padding-top: 60px;
 }
 
 .kontakt {
@@ -19,7 +18,6 @@ body {
     background-color: #474747;
     color: wheat;
     font-size: 20;
-    bottom: 0;
     font-weight: bold;
 }
 
@@ -27,7 +25,7 @@ body {
     width: 100%;
     background-color: #555;
     overflow: auto;
-    position: fixed;
+    position: relative;
 }
 
 .icon-bar a {
@@ -43,10 +41,10 @@ body {
 .icon-bar a:hover {
     background-color: wheat;
     border-radius: 10px;
+
 }
 
 .active {
-    color: black;
     background-color: rgb(92, 0, 128);
     border-radius: 10px;
 }
@@ -63,6 +61,17 @@ h1{
 }
 
 img{
-    text-align: left;
+    text-align: center;
     opacity: 60%;
+
 }
+
+.responsive {
+    height: 81vh;
+    width: 170%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+  }
