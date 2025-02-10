@@ -33,7 +33,7 @@ body {
 }
 
 .active {
-    background-color: wheat;
+    background-color: rgb(92, 0, 128);
     border-radius: 10px;
 }
 
