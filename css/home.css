@@ -1,0 +1,77 @@
+body {
+    font-family: Garamond, serif;
+    margin: 0;
+    padding: 0;
+    background-color: wheat;
+    overflow: hidden;
+}
+
+.title {
+    color: white;
+    background-color: black;
+    display: flex;
+}
+
+.kontakt {
+    text-align: center;
+    padding: 29.5px;
+    background-color: #474747;
+    color: wheat;
+    font-size: 20;
+    font-weight: bold;
+}
+
+.icon-bar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+    position: relative;
+}
+
+.icon-bar a {
+    float: left;
+    text-align: center;
+    width: 20%;
+    padding: 12px 0;
+    transition: all 0.2s ease;
+    font-size: 36px;
+    color: white;
+}
+
+.icon-bar a:hover {
+    background-color: wheat;
+    border-radius: 10px;
+
+}
+
+.active {
+    background-color: rgb(92, 0, 128);
+    border-radius: 10px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+h1{
+    text-align: center;
+    padding-top: 80px;
+    padding-left: 230px;
+    font-size: 50;
+}
+
+img{
+    text-align: center;
+    opacity: 60%;
+
+}
+
+.responsive {
+    height: 81vh;
+    width: 170%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+  }
