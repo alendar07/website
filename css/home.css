@@ -68,7 +68,7 @@ img{
 
 .responsive {
     height: 81vh;
-    width: 170%;
+    width: 100%;
     position: relative;
     left: 50%;
     transform: translate(-50%, 0);
